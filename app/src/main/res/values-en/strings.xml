@@ -15,8 +15,8 @@
     <string name="sign_up_hint"> Fill out the profile and go to the application! </string>
     <string name="google_button" translatable="false"> GOOGLE </string>
     <string name="login_account"> Already have an account? </string>
-    <string name="agreement"> By clicking Register you agree to our Terms   and Conditions </string>
+    <string name="agreement">" By clicking Register you agree to our Terms   and Conditions "</string>
     <string name="register_button"> REGISTER </string>
     <string name="or"> or </string>
-    <string name="sign_up_info"> Let\'s get acquainted </string>
+    <string name="sign_up_info">" Let's get acquainted "</string>
 </resources>
