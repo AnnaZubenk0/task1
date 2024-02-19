@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="dark_blue">#242235</color>
-    <color name="special_white">#FAFAFA</color>
 
+    <color name="dark_blue">#242235</color>
     <color name="light_grey">#B5B0B0</color>
     <color name="dark_grey">#2E2B2B</color>
     <color name="white">#FFFFFFFF</color>

@@ -30,7 +30,7 @@
                     android:layout_marginTop="160dp"
                     android:fontFamily="@font/roboto_slab_regular"
                     android:text="@string/hello_text_view"
-                    android:textColor="@color/white"
+                    android:textColor="@color/main_text_col"
                     android:textSize="28sp" />
 
                 <TextView
@@ -119,7 +119,7 @@
                     android:layout_marginEnd="16dp"
                     android:fontFamily="@font/roboto_slab_regular"
                     android:text="@string/forgot_password"
-                    android:textColor="@color/white"
+                    android:textColor="@color/main_text_col"
                     android:textSize="16sp" />
 
                 <Button
@@ -134,7 +134,7 @@
                     android:paddingTop="18dp"
                     android:paddingBottom="18dp"
                     android:text="@string/login_button"
-                    android:textColor="@color/white"
+                    android:textColor="@color/main_text_col"
                     android:textSize="16sp" />
 
                 <TextView
@@ -159,7 +159,7 @@
                     android:layout_marginBottom="16dp"
                     android:layout_toEndOf="@id/infoTextView"
                     android:text="@string/sign_up_text"
-                    android:textColor="@color/white"
+                    android:textColor="@color/main_text_col"
                     android:textSize="14sp" />
             </RelativeLayout>
         </LinearLayout>

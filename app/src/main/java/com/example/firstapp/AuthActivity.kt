@@ -13,13 +13,13 @@ class AuthActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.auth_activity)
-
-//        if (preferenceManager.getLogin().isNotBlank()) {
-//            val email = preferenceManager.getLogin()
-//            startMainActivity(email)
-//            finish()
-//            return
-//        }
+//        auto login
+       if (preferenceManager.getLogin().isNotBlank()) {
+            val email = preferenceManager.getLogin()
+            startMainActivity(email)
+             finish()
+            return
+        }
         val emailEditText: EditText = findViewById(R.id.emailEditText)
         val passwordEditText: EditText = findViewById(R.id.passwordEditText)
         val registerButton: Button = findViewById(R.id.registerButton)
